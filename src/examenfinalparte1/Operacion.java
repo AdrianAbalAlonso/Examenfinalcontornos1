@@ -5,21 +5,21 @@ package examenfinalparte1;
  */
 public class Operacion {
 
-    int i;
+    int resultadoSum;
 
-    public Operacion(int j, int m) {
-        i = met(j, m);
+    public Operacion(int numero1, int numero2) {
+        resultadoSum = met(numero1, numero2);
     }
 
-    public Operacion(int j) {
-        i = met(j, j);
+    public Operacion(int numero1) {
+        resultadoSum = met(numero1, numero1);
     }
 
     public Operacion() {
-        i = -1;
+        resultadoSum = -1;
     }
 
-    public int met(int x, int x1) {
-        return x + x1;
+    public int met(int numero1, int numero2) {
+        return numero1 + numero2;
     }
 }
