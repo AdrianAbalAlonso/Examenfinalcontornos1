@@ -1,5 +1,8 @@
 package examenfinalparte1;
-
+/**
+ * Clase calcular suma de dos numeros
+ * @author AdrianAbalAlonso
+ */
 public class Operacion {
 
     int i;

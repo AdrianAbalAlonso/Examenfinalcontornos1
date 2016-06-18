@@ -1,7 +1,11 @@
 package examenfinalparte1;
 
 import java.io.IOException;
-
+/**
+ * Clase Principal del proyecto
+ * Crea objetos a partir de los constructores de la clase secundaria llamada Operacion y va asignando valores por parametros
+ * @author AdrianAbalAlonso
+ */
 public class Principal {
 
     public static void main(String[] args) throws IOException {
